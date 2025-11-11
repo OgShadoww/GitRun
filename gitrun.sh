@@ -3,7 +3,8 @@
 commit=$1
 
 if [ -z "$commit" ]; then
-  echo "Please write commit text"
+  echo "Wrong parameter"
+  echo "Ussage: gitrun.sh message"
   exit 1
 fi
 
